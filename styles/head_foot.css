@@ -55,7 +55,7 @@ html{
     display: flex;
     align-items: center;
     gap: 1rem;
-/*    border: 2px solid yellow;*/
+    /*border: 2px solid red;*/
 }
 
 .container_logo i{
@@ -63,7 +63,11 @@ html{
     /*border: 2px solid blueviolet;*/
 }
 
-.container_logo h1 a{
+.logo{
+    border: none;
+    background-color: var(--background-color); 
+}
+.logo a{
     text-decoration: none;
     color: #000;
     font-size: 1.2rem;
@@ -143,14 +147,14 @@ footer{
     background-color: var(--primary-color);
 }
 
-.pieDePagina{
+.container_footer{
     /*border: 2px solid blue;*/
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-.informacion {
+.container_info{
     /*border: 1px solid red;*/
     display: flex;
     flex-direction: column;
@@ -159,54 +163,54 @@ footer{
 
 }
 
-.tituloInformacion{
+.container_titulo{
     text-align: center;
     font-size: 0.8rem;
     font-weight: 700;
     text-transform: uppercase;
 }
 
-.contacto ul,
-.nosotros ul{
+.container_contacto ul,
+.container_nos ul{
     display: flex;
 	flex-direction: column;
 	gap: 0.5rem;
 }
 
-.contacto ul li,
-.nosotros ul li{
+.container_contacto ul li,
+.container_nos ul li{
     list-style: none;
 	color: #fff;
 	font-size: 0.8rem;
 	font-weight: 400;
 }
 
-.nosotros ul li a{
+.container_nos ul li a{
     text-decoration: none;
     color: #fff;
     font-weight: 400;
 }
 
-.nosotros ul li a:hover{
+.container_nos ul li a:hover{
     color: var(--dark-color);
 }
 
-.iconosSociales{
+.container_redes{
     display: flex;
     gap: 1rem;
     flex-direction: column;
 }
 
-.iconosSociales ul{
+.container_redes ul{
     display: flex;
     justify-content: center;
     column-gap: 1rem;
 }
 
-.iconosSociales ul li{
+.container_redes ul li{
     list-style: none;
 }
-.iconosSociales a{
+.container_redes a{
     border-radius: 50%;
     width: 2rem;
     height: 2rem;
@@ -219,7 +223,7 @@ footer{
 
 }
 
-.iconosSociales a:hover{
+.container_redes a:hover{
     color: #3b5998;
 }
 
@@ -289,12 +293,25 @@ footer{
 
 /* FOOTER */ 
  
-    .informacion{
+    .container_info{
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
     }
-    .iconosSociales ul{
+    .container_redes ul{
         column-gap: 0.5rem;
     }
+
+    .container_titulo{
+        font-size: 0.8rem;
+    }
+ 
+    .container_contacto ul li,
+    .container_nos ul li{
+    list-style: none;
+	color: #fff;
+	font-size: 0.8rem;
+	font-weight: 400;
+}
 
 }
