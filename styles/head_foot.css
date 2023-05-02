@@ -19,9 +19,12 @@ html{
 .header{
     /*display: flex;
     flex-direction: column;*/
+    font-family: 'Poppins', sans-serif;
     position: sticky;
     top: 0;
     opacity: 0.9;
+    /*margin: 0;
+    padding: 0;*/
 }
 
 .container_superior{
@@ -145,6 +148,7 @@ main{
 /* FOOTER */
 footer{
     background-color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
 }
 
 .container_footer{
@@ -227,22 +231,22 @@ footer{
     color: #3b5998;
 }
 
-.fa-facebook-f {
+.fa-facebook-f{
 	background-color: #3b5998;
 }
-.fa-twitter {
+.fa-twitter{
 	background-color: #00acee;
 }
 
-.fa-youtube {
+.fa-youtube{
 	background-color: #c4302b;
 }
 
-.fa-pinterest-p {
+.fa-pinterest-p{
 	background-color: #c8232c;
 }
 
-.fa-instagram {
+.fa-instagram{
 	background: linear-gradient(
 		#405de6,
 		#833ab4,
@@ -312,6 +316,6 @@ footer{
 	color: #fff;
 	font-size: 0.8rem;
 	font-weight: 400;
-}
+    }
 
 }
