@@ -18,6 +18,7 @@ h3{
     font-size: 30px;
 }
 
+
 #titulo{
     display: flexbox;
     text-align: center;
@@ -31,6 +32,21 @@ h3{
 
 h2{
     color: rgb(161, 101, 10);
+}
+
+#titulo1{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#titulo2{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#titulo3{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 #imagen1{
