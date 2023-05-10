@@ -17,6 +17,7 @@ html{
 }
 
 .header{
+    
     /*display: flex;
     flex-direction: column;*/
     font-family: 'Poppins', sans-serif;
@@ -25,6 +26,8 @@ html{
     opacity: 0.9;
     /*margin: 0;
     padding: 0;*/
+    
+
 }
 
 .container_superior{
