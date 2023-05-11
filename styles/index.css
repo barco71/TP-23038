@@ -1,7 +1,22 @@
+/*.root{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
 *{ 
     box-sizing: border-box;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    margin: 0;
+    padding-left: rem;
+    padding-right: rem;
+    margin: 0rem;
     padding: 0  ;
+}
+
+body{
+    border: 2px solid;
+    margin: 0; 
+}
+
+html{
+    margin: 0;
 }

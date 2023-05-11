@@ -1,33 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');*/
 
 :root{
     --primary-color: #c7a17a;
     --background-color: #f9f5f0;
     --dark-color: #151515;
 }
+ *{
+    margin: 0;
+    padding: 0;
+ }
 
 html{
     font-family: 'Poppins', sans-serif;
 }
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 .header{
-    
-    /*display: flex;
-    flex-direction: column;*/
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     position: sticky;
     top: 0;
     opacity: 0.9;
-    /*margin: 0;
-    padding: 0;*/
-    
-
+    margin: 0;
+    padding: 0;
+    z-index: 1;
 }
 
 .container_superior{
@@ -35,13 +30,10 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5rem 1rem;
+    padding: 0rem 0.5rem;
 }
 
-
-
 .container_soporte{
-    /*border: 2px solid blue;*/
     display: none;
     align-items: center;
     gap: 1rem;
@@ -61,18 +53,18 @@ html{
     display: flex;
     align-items: center;
     gap: 1rem;
-    /*border: 2px solid red;*/
+    height: 2rem;
 }
 
 .container_logo i{
     font-size: 1.5rem;
-    /*border: 2px solid blueviolet;*/
 }
 
 .logo{
     border: none;
     background-color: var(--background-color); 
 }
+
 .logo a{
     text-decoration: none;
     color: #000;
@@ -80,14 +72,6 @@ html{
     letter-spacing: -1px;
     text-transform: uppercase;
 }
-
-/*.container_logo h1{
-    border: 2px solid ;
-}
-
-.container_logo{
-    border: 2px solid red;
-}*/
 
 .container_carrito{
     /*border: 2px solid cyan;*/
@@ -119,14 +103,16 @@ html{
 
 .container_navbar{
     background-color: var(--primary-color);
-    /*border: 2px solid red;*/
+    height: 2rem;
 }
 
 .menu{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 1rem;
     align-items: center;
-    padding: 1rem;
+    padding: 0 1rem;
+    margin: 0.3rem;
 }
 
 .menu li{
@@ -149,9 +135,12 @@ main{
 }
 
 /* FOOTER */
-footer{
+.footer{
+    box-sizing: border-box;
     background-color: var(--primary-color);
     font-family: 'Poppins', sans-serif;
+    border: 0;
+    padding: 0;
 }
 
 .container_footer{

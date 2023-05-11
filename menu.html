@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="menu.css" rel="stylesheet">
+  <link href="./styles/menu.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
@@ -12,9 +12,50 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
   <title>Tpo</title>
+
+      <!--ESTILOS HEADER  FOOTER-->
+      <link rel="stylesheet" href="./styles/head_foot.css">
+
+      <!--AWESOME-->
+      <script src="https://kit.fontawesome.com/162c522fdb.js" crossorigin="anonymous"></script>
+  
+      <!--FONT FAMILY HEADER Y FOOTER-->
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  
 </head>
 <body>
-  
+  <header class="header">
+    <section class="container_superior">
+        <section class="container_soporte">
+            <i class="fa-solid fa-headset"></i>
+            <section class="container_soporte_datos">
+                <span class="text">Soporte al Cliente</span>
+                <span class="numero">5555-1245</span>
+            </section>
+        </section>
+        <section class="container_logo">
+            <i class="fa-solid fa-mug-hot"></i>
+            <h1 class="logo"><a href="./index.html">Cafe Codo a Codo</a></h1>
+        </section>
+        <section class="container_carrito">
+            <a href="#" class="fa-solid fa-user"></a>
+            <a href="#" class="container_registra">Registrate</a>
+        </section>
+    </section>
+    <section class="container_navbar">
+        <nav class="navbar">
+            <ul class="menu">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./historia.html">Historia</a></li>
+                <li><a href="./menu.html">Menu</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+    </section>
+  </header>
+
   <main class="anside_01">
     <h1>Menú</h1>
         <a class="coffe-shop" >
@@ -237,6 +278,46 @@
         </section>
       </article>
   </main>
+  <footer class="footer">
+    <section class="container_footer">
+        <section class="container_info">
+            <section class="container_contacto">
+                <p class="container_titulo">Informacion de Contacto</p>
+                <ul>
+                    <li>Direccion: Via Cesare Beruto, 18</li>
+                    <li>Telefono: 011-5555-1234</li>
+                    <li>Whatsapp: 11-5555-4321</li>
+                    <li>Email: cafecodoacodo@bar.com.ar</li>
+                </ul>
+            </section>
+            <section class="container_nos">
+                <p class="container_titulo">Informacion</p>
+                <ul>
+                    <li><a href="./historia.html">Acerca de Nosotros</a></li>
+                    <li><a href="#">Politica de Privacidad</a></li>
+                    <li><a href="#">Terminos y Condiciones</a></li>
+                    <li><a href="#">Registrate</a></li>
+                </ul>
+            </section>
+            <section class="container_redes">
+                <p class="container_titulo">Siguenos en nuestras Redes Sociales</p>
+                <ul>
+                    <li><a href="#" class="fa-brands fa-facebook-f"></a></li>
+                    <li><a href="#" class="fa-brands fa-twitter"></a></li>
+                    <li><a href="#" class="fa-brands fa-youtube"></a></li>
+                    <li><a href="#" class="fa-brands fa-pinterest-p"></a></li>
+                    <li><a href="#" class="fa-brands fa-instagram"></a></li>
+                </ul>
+            </section>
+        </section>
+        <section class="copyright">
+            <p>Desarrollado por el grupo 24 &copy; 2023</p>
+            <p>Todos los Derechos Reservados</p>
+        </section>
+    </section>
+
+</footer>
+
 </body>
-<script src="menu.js"></script>
+<script src="./js/menu.js"></script>
 </html>
