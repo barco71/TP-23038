@@ -7,13 +7,14 @@
     padding: 0  ;
 }
 
-main{ 
+main{
     box-sizing: border-box;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     margin: 0;
-    padding: 0  ;
+    padding: 0;
 }
+
 
 #historia, h2, h3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -26,6 +27,9 @@ h3{
     font-size: 30px;
 }
 
+h2{
+    color: rgb(161, 101, 10);
+}
 
 #titulo{
     display: flexbox;
@@ -33,14 +37,9 @@ h3{
     font-size: xx-large;
     border-style: dashed;
     padding: 1rem;
-    background-color: rgb(248, 235, 216);
+    background-color: #f9f5f0;
     font-family: 'Lobster', cursive;
     color: rgb(109, 62, 8);
-}
-
-
-h2{
-    color: rgb(161, 101, 10);
 }
 
 #titulo1{
@@ -59,11 +58,15 @@ h2{
 }
 
 #titulo4{
+    color: black;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
 #imagen1{
+    margin: 5px;
+    padding: 10px;
+    background-color: #151515;
     display: flex;
     align-self: center;
     height: 200px;
@@ -77,6 +80,8 @@ h2{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
     font-weight: bold;
+    color: floralwhite;
+    font-size: x-large;
 
 }
 
@@ -127,9 +132,21 @@ p{
     object-position: center;
 }
 
+#iframe{
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    background-color: #cbaf93; 
+}
+
+#mapa{
+    display: flex;
+    width: 50%;
+    min-width: max-content;
+    height: 100%;
+}
 
 button:hover {
-    color: rgba(152, 76, 29, 0.411);
+    color: rgba(10, 4, 0, 0.861);
     font-weight: bold;
     display: inline-flexbox;
     flex-direction: row;
