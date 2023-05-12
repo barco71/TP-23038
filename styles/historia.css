@@ -1,4 +1,8 @@
-
+:root{
+    --primary-color: #c7a17a;
+    --background-color: #f9f5f0;
+    --dark-color: #151515;**
+}
 *{ 
     box-sizing: border-box;
     padding-left: 0.5rem;
