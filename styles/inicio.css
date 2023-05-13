@@ -6,10 +6,10 @@
 	/**--dark-color: #151515;**/
 }
 
-/**html {
-	font-size: 62.5%;
+html {
+	/**font-size: 62.5%;**/
 	font-family: 'Poppins', sans-serif;
-}**/
+}
 
 * {
 	margin: 0;
