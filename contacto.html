@@ -52,16 +52,19 @@
       </header>
       <main>
         <!--<section class="container_form">-->
-            <form action="">
+            <form action="" id="formulario">
                 <h2 class="titulo">contacto</h2>
-                <input type="text" name="Nombre" placeholder="Nombre">
-                <input type="text" name="Apellido" placeholder="Apellido">
-                <input type="text" name="correo" placeholder="Correo">
-                <input type="text" name="telefono" placeholder="Telefono">
+                <input type="text" name="Nombre" placeholder="Nombre" required value="dan">
+                <input type="text" name="Apellido" placeholder="Apellido" required value="fer">
+                <input type="text" name="Correo" placeholder="Correo" required value="example.email@test.com">
+                <input type="number" name="telefono" placeholder="Telefono" required value="5555">
                 <textarea name="mensaje" id="mensaje" placeholder="Escriba aqui su mensaje"></textarea>
-                <input type="button" value="ENVIAR" id="enviar">
+                <input type="button" value="ENVIAR" id="enviar" onclick="validarFormulario()">
+                <p id="mensajeError" style="color: red;"></p>
+                <p id="mensajeExito" style="color: green;"></p>
             </form>
-    <!--</section>-->
+        <!--</section>-->
+        <script  src="./js/contacto.js"></script>
     </main>
     <footer class="footer">
         <section class="container_footer">
@@ -92,7 +95,6 @@
                         <li><a href="https://www.youtube.com/" target="_blank" class="fa-brands fa-youtube"></a></li>
                         <li><a href="https://ar.pinterest.com/" target="_blank" class="fa-brands fa-pinterest-p"></a></li>
                         <li><a href="https://www.instagram.com" target="_blank" class="fa-brands fa-instagram"></a></li>
-                        <a href="" target="_blank"></a>
                     </ul>
                 </section>
             </section>
@@ -101,9 +103,8 @@
                 <p>Todos los Derechos Reservados</p>
             </section>
         </section>
-
+    
     </footer>
-
     
 </body>
 </html>
