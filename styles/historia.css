@@ -153,9 +153,8 @@ p{
 
 #mapa{
     display: flex;
-    width: 50%;
-    min-width: max-content;
-    height: 100%;
+    flex-wrap: wrap;
+    max-width: max-content;
 }
 
 button:hover {
