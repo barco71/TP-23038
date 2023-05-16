@@ -9,13 +9,11 @@
     padding-left: 2rem;
     padding-right: 2rem;
     margin: 0;
-    padding: 0  ;
+    padding: 0;
 }
 
 main{
     box-sizing: border-box;
-    padding-left: 2rem;
-    padding-right: 2rem;
     margin: 0;
     padding: 0;
 }
@@ -104,6 +102,15 @@ h2{
     flex-wrap: wrap;
 }
 
+.container1 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.container2 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
 .item{
     display: flex;
     flex-direction: column;
