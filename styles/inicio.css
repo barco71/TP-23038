@@ -8,7 +8,7 @@
 
 html {
 	
-	background-color: #000;
+	/**background-color: #000;**/
 	/**font-size: 62.5%;**/
 	font-family: 'Poppins', sans-serif;
 }
@@ -22,6 +22,9 @@ html {
 /* ************ */
 /*             UTILIDADES             */
 /* ************ */
+
+
+
 .container {
 	max-width: 120rem;
 	margin: 0 auto;
@@ -113,51 +116,14 @@ html {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 1rem 0;
+	
 }
 
 .navbar .fa-bars {
 	display: none;
 }
 
-.menu {
-	display: flex;
-	gap: 2rem;
-}
 
-.menu li {
-	list-style: none;
-}
-
-.menu a {
-	text-decoration: none;
-	font-size: 1.3rem;
-	color: var(--dark-color);
-	font-weight: 600;
-	text-transform: uppercase;
-	position: relative;
-}
-
-.menu a::after {
-	content: '';
-	width: 1.5rem;
-	height: 1px;
-	background-color: #fff;
-	position: absolute;
-	bottom: -3px;
-	left: 50%;
-	transform: translate(-50%, 50%);
-	opacity: 0;
-	transition: all 0.3s ease;
-}
-
-.menu a:hover::after {
-	opacity: 1;
-}
-
-.menu a:hover {
-	color: #fff;
-}
 
 .search-form {
 	position: relative;
@@ -247,6 +213,7 @@ html {
 	display: flex;
 	justify-content: center;
 	gap: 5px;
+	Font-size : 12px;
 	
 }
 .categoríasMejores > section{
@@ -268,14 +235,17 @@ html {
 	align-items: center;
 }
 .imgCategoria{
-	left: 10px;
-	width: 122px;
-	height: 111px;
+	
 	margin-left: 29px;
+	Max-width: 100%;
+   	max-height: 50%;
+	margin-left: 11 px 5 px;
 }
 .imgCategoriaComida{
-	width: 148px;
-	height: 113px;
+
+	Max-width: 100%;
+	max-height: 40%;
+	Margin: 23px 2px;
 	}
 .textDescripcion{
 margin: 0px 12px;
@@ -288,15 +258,28 @@ justify-content: center;
 gap: 4px;
 }
 .articleCard > section{
-	color: #faecec;
+	
 	display:flex;
-	background-color: rgba(123, 124, 122, 0.411);
+	
 	text-align: center;
 	align-items: center;
 	justify-content: center;
 	font-weight: bold;
 	border: 2px #000 solid;
-	width: 250px;
+	font-size: 10px;
+	Padding :10px;
+    height: 60px;
 	height: 60px;
 	border-radius: 15px;
 }
+#itms {
+position:relative;
+top: -10px;
+right: 6px;
+
+}
+
+
+
+	
+
