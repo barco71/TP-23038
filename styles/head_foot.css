@@ -246,6 +246,11 @@ html{
     text-align: center;
     font-size: .8rem;
     margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.copyright p{
+    text-align: center;
 }
 
 /* MEDIA QUERIES */
@@ -306,9 +311,12 @@ html{
     }
 
 }
+
+
 /* ********************************** */
 /*               BANNER               */
 /* ********************************** */
+/*
 .banner {
 	background-image: linear-gradient(100deg, #000000, #00000020),
 		url('img/banner.jpg');
@@ -348,3 +356,4 @@ html{
 	border-radius: 3rem;
 }
 
+*/
