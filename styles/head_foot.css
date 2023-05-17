@@ -124,12 +124,6 @@ html{
     position: relative;
 }
 
-/* MAIN */
-main{
-    background-color: var(--dark-color);
-    color: #fff;
-    font-size: .8rem;
-}
 
 /* FOOTER */
 .footer{
@@ -162,9 +156,7 @@ main{
     text-transform: uppercase;
 }
 
-.container_contacto{
-    /*display: none;*/
-}
+
 .container_contacto ul,
 .container_nos ul{
     display: flex;
