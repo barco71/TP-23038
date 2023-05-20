@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Document</title>
+        <link rel="stylesheet" href="./styles/clientes.css">
+
+        <!--HOJAS DE ESTILO-->
+        <link rel="stylesheet" href="./styles/contacto.css">
+
+        <!--ESTILOS HEADER  FOOTER-->
+        <link rel="stylesheet" href="./styles/head_foot.css">
     
-    <!--HOJAS DE ESTILO-->
-    <link rel="stylesheet" href="./styles/contacto.css">
-
-    <!--ESTILOS HEADER  FOOTER-->
-    <link rel="stylesheet" href="./styles/head_foot.css">
-
-    <!--AWESOME-->
-    <script src="https://kit.fontawesome.com/162c522fdb.js" crossorigin="anonymous"></script>
-
-    <!--FONT FAMILY HEADER Y FOOTER-->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
+        <!--AWESOME-->
+        <script src="https://kit.fontawesome.com/162c522fdb.js" crossorigin="anonymous"></script>
+    
+        <!--FONT FAMILY HEADER Y FOOTER-->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -49,23 +49,39 @@
             </nav>
         </section>
     </header>
-    
     <main>
-        <!--<section class="container_form">-->
-            <form action="" id="formulario">
-                <h2 class="titulo">contacto</h2>
-                <input type="text" name="Nombre" placeholder="Nombre" required>
-                <input type="text" name="Apellido" placeholder="Apellido" required>
-                <input type="text" name="Correo" placeholder="Correo" required>
-                <input type="number" name="telefono" placeholder="Telefono" required>
-                <textarea name="mensaje" id="mensaje" placeholder="Escriba aqui su mensaje"></textarea>
-                <input type="button" value="ENVIAR" id="enviar" onclick="validarFormulario()">
-                <p id="mensajeError"></p>
-                <p id="mensajeExito"></p>
-            </form>
-        <!--</section>-->
-        <script  src="./js/contacto.js"></script>
+        <section class="cliente">
+            <section class="clienteSuperior">
+                <img src="https://randomuser.me/api/portraits/men/11.jpg" alt="">
+                <section class="clienteInfo">
+                    <span id="nombre">Nombre</span>
+                    <span>|</span>
+                    <span id="genero">Genero</span>
+                </section>
+            </section>
+            <section class="clienteInferior">
+                <section class="clienteDatos">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span id="email">Email</span>
+                </section>
+                <section class="clienteDatos">
+                    <i class="fa-solid fa-phone"></i>
+                    <span id="telefono">Telefono</span>
+                </section>
+                <section class="clienteDatos">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span id="telefono">Pais</span>
+                </section>
+                
+            </section>
+            
+            
+        </section>
+        <section class="botonCliente">
+            <input type="button" value="Cliente" id="cliente">   
+        </section>
     </main>
+
     <footer class="footer">
         <section class="contenedor_footer">
             <section class="contenedor_info">
@@ -105,6 +121,6 @@
         </section>
     
     </footer>
-    
+
 </body>
 </html>
