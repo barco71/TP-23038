@@ -50,7 +50,6 @@ main{
 }
 
 .clienteDatos{
-    border: 2px solid green;
     background-color: #fff;
     padding: 0.4rem;
     margin-bottom: 0.5rem;
@@ -60,7 +59,8 @@ main{
 
 .fa-solid{
     margin-right: 0.5rem;
-    color: gray;
+    /*color: gray;*/
+    color: var(--dark-color);
 }
 
 .botonCliente{
