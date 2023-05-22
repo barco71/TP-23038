@@ -26,6 +26,7 @@ header.innerHTML =
             <li><a href="./historia.html">Historia</a></li>
             <li><a href="./menu.html">Menu</a></li>
             <li><a href="./contacto.html">Contacto</a></li>
+            <li><a href="./clientes.html">Clientes</a></li>
         </ul>
     </nav>
 </section>
@@ -51,6 +52,7 @@ footer.innerHTML=
         <li><a href="./politicas.html#politica">Politica de Privacidad</a></li>
         <li><a href="./politicas.html#terminos">Terminos y Condiciones</a></li>
         <li><a href="./contacto.html">Registrate</a></li>
+        <li><a href="./clientes.html">Nuestros Clientes</a></li>
       </ul>
     </section>
     <section class="contenedor_redes">
